@@ -11,6 +11,7 @@ if (story.value.status) {
   throw createError({
     statusCode: "404",
     statusMessage: "Niet gevonden",
+    fatal: true,
   });
 }
 </script>
