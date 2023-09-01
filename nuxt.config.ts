@@ -8,6 +8,9 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    static: true,
+    prerender: {
+      crawlLinks: true,
+      routes: ["/", "404.html", "200.html"],
+    },
   },
 });
