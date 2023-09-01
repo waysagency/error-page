@@ -6,4 +6,8 @@ export default defineNuxtConfig({
   storyblok: {
     accessToken: "Nbrm0soKR2MvQ9B6DMsR7wtt",
   },
+
+  nitro: {
+    static: true,
+  },
 });
