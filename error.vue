@@ -3,8 +3,6 @@ const props = defineProps({
   error: Object,
 });
 
-console.log(props.error);
-
 const handleError = () => clearError({ redirect: "/" });
 </script>
 
