@@ -6,14 +6,6 @@ const url = slug && slug.length > 0 ? slug.join("/") : "home";
 const story = await useAsyncStoryblok(url.replace(/\/$/, ""), {
   version: "draft",
 });
-
-if (story.value.status) {
-  throw createError({
-    statusCode: "404",
-    statusMessage: "Niet gevonden",
-    fatal: true,
-  });
-}
 </script>
 
 <template>
