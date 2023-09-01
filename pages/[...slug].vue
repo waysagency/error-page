@@ -9,8 +9,8 @@ const story = await useAsyncStoryblok(url.replace(/\/$/, ""), {
 
 if (story.value.status) {
   throw createError({
-    statusCode: story.value.status,
-    statusMessage: story.value.response,
+    statusCode: "404",
+    statusMessage: "Niet gevonden",
   });
 }
 </script>
