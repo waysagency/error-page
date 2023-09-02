@@ -7,8 +7,6 @@
     <NuxtLink to="/" class="underline"> Home </NuxtLink>
 
     <NuxtLink to="/about-us" class="underline"> About us </NuxtLink>
-
-    <NuxtLink to="/test" class="underline"> test </NuxtLink>
   </div>
 </template>
 
